@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace DotNetLibs.GoogleDrive.Services
 {
-    interface GoogleDriveService
+    public interface GoogleDriveService
     {
         GoogleDriveFileModel GetFile(string fileId);
         List<GoogleDriveFileModel> GetFiles(GoogleDriveFileTypeEnum fileType, string fileName);

@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace DotNetLibs.GoogleDrive.Services.Impl
 {
-    partial class GoogleDriveServiceImpl
+    public partial class GoogleDriveServiceImpl
     {
         private readonly GoogleDriveSettings _googleDriveSettings;
         private readonly DriveService _driveService;
