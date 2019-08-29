@@ -45,5 +45,14 @@ This library contains the nex methods:
 
 ```
 
+##### Response has the next info (GoogleDriveFileModel)
+
+```
+  public string Id { get; set; }
+  public string Name { get; set; }
+  public string FileType { get; set; }
+  public IList<string> Parents { get; set; }
+```
+
 Note: Google drive works with Ids for any file, in that case working with the names is stupid because you can have many files with the same name name and you can not find any diference in their files.
 For this reazon google drive work with Ids.
