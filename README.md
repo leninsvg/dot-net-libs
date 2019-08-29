@@ -11,6 +11,9 @@ For get the credentials of google drive you can, go to google or use the next li
 
 1. https://www.iperiusbackup.net/en/how-to-enable-google-drive-api-and-get-client-credentials/
 
+
+#### Instance in one class
+
 ```
  GoogleDriveServiceImpl googleDriveService = new GoogleDriveServiceImpl(new DotNetLibs.GoogleDrive.Models.GoogleDriveSettings()
             {
@@ -18,6 +21,16 @@ For get the credentials of google drive you can, go to google or use the next li
                 ClientId = "",
                 ClientSecret = ""
             });
+```
+
+#### Using dependency inyection (In the Startup.cs)
+
+```
+ services.AddTransient<GoogleDriveServiceImpl>(x => new GoogleDriveServiceImpl(new GoogleDriveSettings() {
+                ApplicationName = "xxxx",
+                ClientId = "xxxx",
+                ClientSecret = "xxxxx"
+            }));
 ```
 
 This library contains the nex methods: 
