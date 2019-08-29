@@ -36,12 +36,12 @@ For get the credentials of google drive you can, go to google or use the next li
 This library contains the nex methods: 
 
 ```
-        GoogleDriveFileModel GetFile(string fileId);
-        List<GoogleDriveFileModel> GetFiles(GoogleDriveFileTypeEnum fileType, string fileName);
-        GoogleDriveFileModel CreateFolder(string folderName, List<string> parents);
-        GoogleDriveFileModel UploadGoogleDriveFile(GoogleDriveFileModel googleDriveFile);
-        void RemoveFile(string googleDriveFileId);
-        DriveService GetGoogleDriveService();
+  GoogleDriveFileModel GetFile(string fileId);
+  List<GoogleDriveFileModel> GetFiles(GoogleDriveFileTypeEnum fileType, string fileName);
+  GoogleDriveFileModel CreateFolder(string folderName, List<string> parents);
+  GoogleDriveFileModel UploadGoogleDriveFile(GoogleDriveFileModel googleDriveFile);
+  void RemoveFile(string googleDriveFileId);
+  DriveService GetGoogleDriveService();
 
 ```
 
