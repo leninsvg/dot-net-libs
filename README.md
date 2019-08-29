@@ -5,7 +5,7 @@
 Use for use only nedd instance the object with the next structure
 
 
-Gor get the credentials of google drive you van googlear in page similars to nex:
+For get the credentials of google drive you can, go to google or use the next links:
 
 1. https://www.iperiusbackup.net/es/activar-la-api-de-google-drive-y-obtener-las-credenciales-para-la-copia-de-seguridad/
 
@@ -32,5 +32,5 @@ This library contains the nex methods:
 
 ```
 
-Note: Google drive works with Id for any file in that case working with the names is stupid because you can have many names with the same name and you can not diference with file is.
-For this reazon google drive work with Ids
+Note: Google drive works with Ids for any file, in that case working with the names is stupid because you can have many files with the same name name and you can not find any diference in their files.
+For this reazon google drive work with Ids.
