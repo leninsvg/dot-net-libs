@@ -6,21 +6,23 @@ using Google.Apis.Auth.OAuth2;
 using Google.Apis.Drive.v3;
 using Google.Apis.Drive.v3.Data;
 using Google.Apis.Services;
-using System;
 using System.Collections.Generic;
 using System.Threading;
 
 namespace DotNetLibs.GoogleDrive.Services.Impl
 {
-    public partial class GoogleDriveServiceImpl
+    public partial class GoogleDriveServiceImpl: GoogleDriveService
     {
         private readonly GoogleDriveSettings _googleDriveSettings;
         private readonly DriveService _driveService;
+
         public GoogleDriveServiceImpl(GoogleDriveSettings googleDriveSettings)
         {
             this._googleDriveSettings = googleDriveSettings;
             this._driveService = this.GetGoogleDriveService();
         }
+
+       
 
         public GoogleDriveFileModel GetFile(string fileId)
         {
