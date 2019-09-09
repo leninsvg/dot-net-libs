@@ -14,6 +14,7 @@ namespace DotNetLibs.AzureBlobStorage.Services.Impl
         public AzureBlobStorageServiceImpl(AzureBlobStorageSettingModel azureBlobStorageSetting)
         {
             this._azureBlobStorageSetting = azureBlobStorageSetting;
+            this.ConnectToAzure();
         } 
         
         private void ConnectToAzure()
