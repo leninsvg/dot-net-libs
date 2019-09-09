@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetLibs.GoogleDrive", "DotNetLibs.GoogleDrive\DotNetLibs.GoogleDrive.csproj", "{F9CC182A-B702-474D-8349-A82BFE5186CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetLibs.CloudinaryApi", "DotNetLibs.Cloudinary\DotNetLibs.CloudinaryApi.csproj", "{DEAA83D5-30C4-465C-8EF7-09527B123379}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetLibs.CloudinaryApi", "DotNetLibs.Cloudinary\DotNetLibs.CloudinaryApi.csproj", "{DEAA83D5-30C4-465C-8EF7-09527B123379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetLibs.AzureBlobStorage", "DotNetLibs.AzureBlobStorage\DotNetLibs.AzureBlobStorage.csproj", "{FAC9018D-7B47-4FD3-B9A3-B551AFDBD670}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DEAA83D5-30C4-465C-8EF7-09527B123379}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEAA83D5-30C4-465C-8EF7-09527B123379}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEAA83D5-30C4-465C-8EF7-09527B123379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC9018D-7B47-4FD3-B9A3-B551AFDBD670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC9018D-7B47-4FD3-B9A3-B551AFDBD670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC9018D-7B47-4FD3-B9A3-B551AFDBD670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC9018D-7B47-4FD3-B9A3-B551AFDBD670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
