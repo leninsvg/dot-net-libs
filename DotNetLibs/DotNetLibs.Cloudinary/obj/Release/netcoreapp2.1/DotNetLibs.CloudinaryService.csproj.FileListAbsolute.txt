@@ -1,0 +1,4 @@
+C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\obj\Release\netcoreapp2.1\DotNetLibs.CloudinaryService.csprojAssemblyReference.cache
+C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\obj\Release\netcoreapp2.1\DotNetLibs.CloudinaryService.csproj.CoreCompileInputs.cache
+C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\obj\Release\netcoreapp2.1\DotNetLibs.CloudinaryService.AssemblyInfoInputs.cache
+C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\obj\Release\netcoreapp2.1\DotNetLibs.CloudinaryService.AssemblyInfo.cs
