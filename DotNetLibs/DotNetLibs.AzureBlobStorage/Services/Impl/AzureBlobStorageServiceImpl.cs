@@ -14,24 +14,14 @@ namespace DotNetLibs.AzureBlobStorage.Services.Impl
         public AzureBlobStorageServiceImpl(AzureBlobStorageSettingModel azureBlobStorageSetting)
         {
             this._azureBlobStorageSetting = azureBlobStorageSetting;
-            this.ConnectToAzure();
         } 
         
         private void ConnectToAzure()
         {
             CloudStorageAccount storageAccount;
             if (CloudStorageAccount.TryParse(this._azureBlobStorageSetting.ConnectionString, out storageAccount))
-            {
-                CloudBlobClient cloudBlobClient = storageAccount.CreateCloudBlobClient();
-                this._cloudBlobContainer =
-                    cloudBlobClient.GetContainerReference("amarketcontainer" +
-                        Guid.NewGuid().ToString());
-                this._cloudBlobContainer.Create();
-                BlobContainerPermissions permissions = new BlobContainerPermissions
-                {
-                    PublicAccess = BlobContainerPublicAccessType.Blob
-                };
-                this._cloudBlobContainer.SetPermissions(permissions);
+            {                
+                this.InitContainer(storageAccount);
             }
             else
             {
@@ -45,8 +35,25 @@ namespace DotNetLibs.AzureBlobStorage.Services.Impl
             }
         }
 
+        private void InitContainer(CloudStorageAccount storageAccount)
+        {
+            CloudBlobClient cloudBlobClient = storageAccount.CreateCloudBlobClient();
+            this._cloudBlobContainer = cloudBlobClient.GetContainerReference("images/test/tessss");
+            if (cloudBlobClient.GetContainerReference("images/test/tessss").Exists())
+            {               
+                return;
+            }
+            this._cloudBlobContainer.Create();
+            BlobContainerPermissions permissions = new BlobContainerPermissions
+            {
+                PublicAccess = BlobContainerPublicAccessType.Blob
+            };
+            this._cloudBlobContainer.SetPermissions(permissions);
+
+        }
         public void UploadBlob(UploadBlobModel uploadBlob)
         {
+            this.ConnectToAzure();
             Stream fileStream = new MemoryStream(uploadBlob.Blob);
 
             // Create storagecredentials object by reading the values from the configuration (appsettings.json)
