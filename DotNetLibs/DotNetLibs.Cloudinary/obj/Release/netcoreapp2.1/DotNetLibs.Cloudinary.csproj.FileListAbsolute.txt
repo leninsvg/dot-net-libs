@@ -1,5 +1,0 @@
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\bin\Release\netcoreapp2.1\DotNetLibs.Cloudinary.deps.json
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\bin\Release\netcoreapp2.1\DotNetLibs.Cloudinary.dll
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\obj\Release\netcoreapp2.1\DotNetLibs.Cloudinary.csproj.CoreCompileInputs.cache
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\obj\Release\netcoreapp2.1\DotNetLibs.Cloudinary.AssemblyInfoInputs.cache
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\obj\Release\netcoreapp2.1\DotNetLibs.Cloudinary.AssemblyInfo.cs

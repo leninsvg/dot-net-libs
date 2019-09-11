@@ -1,9 +1,0 @@
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\bin\Debug\netcoreapp2.1\DotNetLibs.CloudinaryApi.deps.json
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\bin\Debug\netcoreapp2.1\DotNetLibs.CloudinaryApi.dll
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\bin\Debug\netcoreapp2.1\DotNetLibs.CloudinaryApi.pdb
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\obj\Debug\netcoreapp2.1\DotNetLibs.CloudinaryApi.csprojAssemblyReference.cache
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\obj\Debug\netcoreapp2.1\DotNetLibs.CloudinaryApi.csproj.CoreCompileInputs.cache
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\obj\Debug\netcoreapp2.1\DotNetLibs.CloudinaryApi.AssemblyInfoInputs.cache
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\obj\Debug\netcoreapp2.1\DotNetLibs.CloudinaryApi.AssemblyInfo.cs
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\obj\Debug\netcoreapp2.1\DotNetLibs.CloudinaryApi.dll
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.Cloudinary\obj\Debug\netcoreapp2.1\DotNetLibs.CloudinaryApi.pdb
