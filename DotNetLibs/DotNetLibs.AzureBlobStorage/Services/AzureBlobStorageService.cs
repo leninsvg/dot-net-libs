@@ -7,6 +7,6 @@ namespace DotNetLibs.AzureBlobStorage.Services
 {
     public interface AzureBlobStorageService
     {
-        void UploadBlob(UploadBlobModel uploadBlob);
+        string UploadBlob(UploadBlobModel uploadBlob);
     }
 }
