@@ -1,9 +1,0 @@
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.AzureBlobStorage\bin\Debug\netcoreapp2.1\DotNetLibs.AzureBlobStorage.deps.json
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.AzureBlobStorage\bin\Debug\netcoreapp2.1\DotNetLibs.AzureBlobStorage.dll
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.AzureBlobStorage\bin\Debug\netcoreapp2.1\DotNetLibs.AzureBlobStorage.pdb
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.AzureBlobStorage\obj\Debug\netcoreapp2.1\DotNetLibs.AzureBlobStorage.csprojAssemblyReference.cache
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.AzureBlobStorage\obj\Debug\netcoreapp2.1\DotNetLibs.AzureBlobStorage.csproj.CoreCompileInputs.cache
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.AzureBlobStorage\obj\Debug\netcoreapp2.1\DotNetLibs.AzureBlobStorage.AssemblyInfoInputs.cache
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.AzureBlobStorage\obj\Debug\netcoreapp2.1\DotNetLibs.AzureBlobStorage.AssemblyInfo.cs
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.AzureBlobStorage\obj\Debug\netcoreapp2.1\DotNetLibs.AzureBlobStorage.dll
-C:\Users\Lenin\Desktop\Projects\dot-net-libs\DotNetLibs\DotNetLibs.AzureBlobStorage\obj\Debug\netcoreapp2.1\DotNetLibs.AzureBlobStorage.pdb
