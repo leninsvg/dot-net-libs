@@ -44,6 +44,7 @@ namespace DotNetLibs.AzureBlobStorage.Services.Impl
             this._cloudBlobContainer.SetPermissions(permissions);
 
         }
+
         public string UploadBlob(UploadBlobModel uploadBlob)
         {
             this.ConnectToAzure(uploadBlob.ContainerName);
@@ -52,6 +53,13 @@ namespace DotNetLibs.AzureBlobStorage.Services.Impl
             cloudBlockBlob.UploadFromStream(fileStream);
             string url  = cloudBlockBlob.Uri.AbsoluteUri;
             return url;
+        }
+
+        public void RemoveBlob(string containerName, string blobName)
+        {
+            this.ConnectToAzure(containerName);
+            CloudBlockBlob cloudBlockBlob = this._cloudBlobContainer.GetBlockBlobReference(blobName);
+            cloudBlockBlob.DeleteIfExists();
         }
     }
 }
