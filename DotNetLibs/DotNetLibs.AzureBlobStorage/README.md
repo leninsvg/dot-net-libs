@@ -10,7 +10,7 @@ Use for use only nedd instance the object with the next structure
 ```
 AzureBlobStorageServiceImpl googleDriveService = new AzureBlobStorageServiceImpl(new AzureBlobStorageSettingModel()
 {
-	ConnectionString = "xxxxxx",
+	ConnectionString = "xxxxxx", // this value you can found in your account of azure in your services
 })
 ```
 
@@ -19,7 +19,7 @@ AzureBlobStorageServiceImpl googleDriveService = new AzureBlobStorageServiceImpl
 ```
 services.AddTransient<AzureBlobStorageService, AzureBlobStorageServiceImpl>(x => new AzureBlobStorageServiceImpl(new AzureBlobStorageSettingModel()
 {
-    ConnectionString = "xxxxxx",
+    ConnectionString = "xxxxxx", // this value you can found in your account of azure in your services
 }));
 ```
 
@@ -68,3 +68,5 @@ documents
 docoment.doc
 user12/document.doc
 images-pablo-12/profile.png
+
+This library is based of your oficial documentation for more informatio you can access to: https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet
