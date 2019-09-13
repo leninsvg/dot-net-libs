@@ -70,3 +70,4 @@ user12/document.doc
 images-pablo-12/profile.png
 
 This library is based of your oficial documentation for more informatio you can access to: https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet
+For more information you can access to next repository: https://github.com/Leningsv/dot-net-libs/tree/master/DotNetLibs/DotNetLibs.AzureBlobStorage
