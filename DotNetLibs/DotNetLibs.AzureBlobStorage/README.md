@@ -1,6 +1,6 @@
 ﻿# dot-net-libs
 
-### Google Drive
+### Azure blob storage
 
 Use for use only nedd instance the object with the next structure
 
@@ -8,7 +8,7 @@ Use for use only nedd instance the object with the next structure
 #### Instance in one class
 
 ```
-AzureBlobStorageServiceImpl googleDriveService = new AzureBlobStorageServiceImpl(new AzureBlobStorageSettingModel()
+AzureBlobStorageServiceImpl azureBlobStorageService = new AzureBlobStorageServiceImpl(new AzureBlobStorageSettingModel()
 {
 	ConnectionString = "xxxxxx", // this value you can found in your account of azure in your services
 })
